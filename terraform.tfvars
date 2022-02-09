@@ -1,3 +1,3 @@
-rg_location = "westus"
+location = "westus"
 rg_name     = "aks-demo"
 environment = "dev"
