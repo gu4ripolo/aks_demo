@@ -25,3 +25,12 @@ variable "app_subnet" {
 variable "default_subnet" {
   default = "demo_default_subnet"
 }
+
+variable "ssh_public_key" {
+  default = "~/.ssh/aks-prod-sshkeys-terraform/aksprodsshkey.pub"
+}
+
+variable "aks_name" {
+  default = "aks_cluster"
+}
+
